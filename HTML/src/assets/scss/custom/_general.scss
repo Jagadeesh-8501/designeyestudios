@@ -1,0 +1,23 @@
+/*********************************/
+/*             General           */
+/*===============================*/
+html {
+    @apply relative scroll-smooth;
+}
+
+body {
+    @apply font-inter text-[15px] text-black;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    @apply font-inter leading-normal font-semibold;
+}
+
+p {
+    @apply leading-relaxed;
+    @apply font-inter;
+}
+
+::selection {
+    @apply bg-primary/40 text-white;
+}

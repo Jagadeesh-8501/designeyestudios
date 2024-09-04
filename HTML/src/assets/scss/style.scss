@@ -1,0 +1,20 @@
+/* Template Name: Flati - Tailwind CSS Footer Pages Template
+   Author: Zoyothemes
+   Email: zoyothemes@gmail.com
+   Website: http://zoyothemes.com/
+   Version: 1.0.0
+   Created: February 2024
+   File: Main Css File
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// General
+@import "custom/general";
+
+// Pages
+@import "custom/pages/helper";
